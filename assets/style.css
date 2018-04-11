@@ -8,7 +8,8 @@ html, body {
     margin: 0 auto;
     background: black;
     color: white;
-    font-family: helvetica, arial, sans-serif;
+    text-align: center;
+    font-family: cloister;
 }
 
 a {
@@ -16,28 +17,15 @@ a {
     text-decoration: none;   
 }
 
-h1, h2, h3, h4 {
-    font-weight: normal;
-    font-family: cloister;
-}
+h1, h2, h3, h4 { font-weight: normal; }
 
-h1, h2 {
-    margin: 0;
-}
+h1, h2 { margin: 0; }
 
-h1 {
-    font-size: 3em;
-}
+h1 { font-size: 3em; }
 
-h2 {
-    font-size: 1.8em;
-}
+h2 { font-size: 1.8em; }
 
-h3 {
-    font-size: 1.7em;
-    margin-bottom: 0.2em;
-}
-
+header { padding: 2em 0; }
 
 
 .torn {
@@ -58,57 +46,23 @@ h3 {
 }
 
 
-header {
-    color: white;
-    background: black;
-    padding: 2em 0;
-}
-
-
-header, footer, .onepager {
-    text-align: center;
-}
-
-.onepager .hero {
+.hero {
     background: white url(images/emojis.png);
 }
 
-.onepager .hero img {
+.hero img {
     margin-top: 10em;
     max-width: 100%;
 }
 
-.onepager .hero .torn {
-    z-index: 1000;
-    margin-top: -6px;
-}
+.hero .torn { margin-top: -6px; }
 
-.onepager .download {
-    padding: 1.5em;
-}
+.download { padding: 1.5em; }
 
-.onepager .link-list {
-    font-family: cloister;
-    font-size: 1.5em;
-}
-
-
-.privacy article {
-    margin: 0 auto;
-    left: 50%;
-    padding: 0 20px;
-    max-width: 700px;
-}
-
-
-section {
-    padding: 0px;
-    background: white;
-    color: black;
-    margin: 0;
-}
+.link-list { font-size: 1.5em; }
 
 footer {
+    font-family: cloister;
+    font-size: 1.1em;
     padding: 2em 0;
-    font-size: 0.8em;
 }
