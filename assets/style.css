@@ -20,10 +20,8 @@ a {
 h1, h2, h3, h4 { font-weight: normal; }
 
 h1 { margin: 0; }
-
-h1 { font-size: 3em; }
-
-h2 { font-size: 1.8em; }
+h1 { font-size: 2em; }
+h2 { font-size: 1.6em; }
 
 header { padding: 2em 0; }
 
@@ -61,8 +59,9 @@ header { padding: 2em 0; }
 }
 
 
-.download { 
+.download img { 
     padding: 3em; 
+    width: 150px;
 }
 
 
