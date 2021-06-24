@@ -19,7 +19,7 @@ a {
 
 h1, h2, h3, h4 { font-weight: normal; }
 
-h1, h2 { margin: 0; }
+h1 { margin: 0; }
 
 h1 { font-size: 3em; }
 
@@ -47,22 +47,39 @@ header { padding: 2em 0; }
 
 
 .hero {
+    overflow: hidden;
     background: white url(images/emojis.png);
 }
 
-.hero img {
-    margin-top: 10em;
-    max-width: 100%;
+.hero-image {
+    height: 300px;
 }
 
-.hero .torn { margin-top: -6px; }
+.hero img {
+    padding-top: 50px;
+    width: 340px;
+}
 
-.download { padding: 1.5em; }
 
-.link-list { font-size: 1.5em; }
+.download { 
+    padding: 3em; 
+}
+
+
+.link-list { 
+    font-size: 1.3em; 
+}
+
 
 footer {
     font-family: cloister;
     font-size: 1.1em;
     padding: 2em 0;
+}
+
+
+section.privacy article {
+    margin: auto;
+    text-align: left;
+    max-width: 500px;
 }
